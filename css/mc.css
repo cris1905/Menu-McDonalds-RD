@@ -1,0 +1,132 @@
+@font-face {
+	font-family: speedee;
+	src: url('font/Speedee_W_Rg.woff2') format('woff2'),
+		url('font/Speedee_W_Rg.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	display: fallback;
+}
+@font-face {
+	font-family: speedee-bold;
+	src: url('font/Speedee_W_Bd.woff2') format('woff2'),
+		url('font/Speedee_W_Bd.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+	display: fallback;
+}
+
+body {
+	font-family: speedee;
+	font-size: 1rem;
+	line-height: 1.2;
+}
+
+html {
+	color: #222;
+}
+h1,
+.uk-h1,
+h2,
+.uk-h2,
+h3,
+.uk-h3,
+h4,
+.uk-h4,
+h5,
+.uk-h5,
+h6,
+.uk-h6,
+.uk-heading-small,
+.uk-heading-medium,
+.uk-heading-large,
+.uk-heading-xlarge,
+.uk-heading-2xlarge {
+	font-family: speedee-bold;
+	color: #111;
+}
+
+footer .uk-text-center strong {
+	color: red;
+	display: block;
+	margin-top: 10px;
+}
+
+.uk-navbar-nav {
+	margin-top: 10px;
+}
+.uk-navbar-nav > li > a {
+	font-size: 1.2rem;
+}
+.uk-navbar a.active,
+.uk-nav-primary a.active {
+	color: red;
+	font-weight: 500;
+}
+.uk-navbar a:hover,
+.uk-navbar li:hover > a,
+.uk-navbar-dropdown-nav > li > a:hover,
+.uk-navbar-dropdown-nav > li > a:focus {
+	color: black;
+}
+
+header .uk-margin-small-left.uk-icon {
+	top: -2px;
+	position: relative;
+}
+
+.uk-navbar-nav > li.uk-active > a,
+header .uk-navbar-right a.uk-button {
+	color: #000;
+	font-family: speedee-bold;
+}
+
+/*rojo*/
+header .uk-navbar-right a.uk-button,
+.in-testimoni-nav a.uk-slidenav {
+	color: #db0007;
+}
+.uk-button-primary,
+.uk-dotnav > .uk-active > * {
+	background-color: #db0007;
+}
+
+/*amarillo*/
+.uk-dotnav a:hover {
+	background-color: #ffbc0d;
+}
+
+.in-client-logo a,
+.in-client-logo a.uk-link,
+.uk-subnav > * > :first-child,
+footer p {
+	color: #333;
+}
+
+footer .uk-section {
+	background-color: #fff;
+	background-image: none;
+}
+
+.in-client-logo {
+	min-height: 235px;
+}
+
+.pill {
+	text-decoration: none;
+	background-color: red;
+	color: white;
+	border-radius: 20px;
+	padding: 5px 10px;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+	display: inline-block;
+}
+
+.pill.bottom {
+	top: auto;
+	bottom: 0;
+}
